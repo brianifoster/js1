@@ -1,11 +1,11 @@
 var sentence = "brian is my name"; //string
-console.log(sentence);
+//console.log(sentence);
 
 var sentence = 2; //number
-console.log(sentence);
+//console.log(sentence);
 
 var yes = true; //boolean
-console.log(yes);
+//console.log(yes);
 
 {
   //a block is anything between two curly braces
@@ -34,14 +34,37 @@ console.log(yes);
   //  console.log(truth);
   }
   const truth = "Ep8 was... MEH...";
-  console.log(truth);
+  //console.log(truth);
 //NEW is a reserved term that won't work for something that isn't its purpose
 
   let rightNow = new Date();
-  console.log(rightNow);
+  //console.log(rightNow);
 
 
   var string = "lalalalala";  // primitive string
 
   var newString = new String("lalalalala"); // object string
-  console.log(newString.toUpperCase());
+  //console.log(newString.toUpperCase());
+
+  var myArray = ["hello world", 22, true, {}, null];
+  //console.log(myArray.length);
+
+  var myObject = {
+    myString: "Hello World",
+    magicNumber: 42
+  };
+
+  //let helloMessage = alert("Hey, there! My book is only $9.99....");
+  //let confirmMessage = confirm("Is your name Jesus?");
+  //console.log(confirmMessage);
+
+  //let promptMessage = prompt("Tell me the password", "password");
+  //console.log(promptMessage);
+
+
+const firstName = prompt("What is your first name?", "Maria");
+const lastName = prompt("What is your last name?", "is the best...duh");
+console.log(firstName);
+alert(lastName);
+let birthday = prompt("What's your birthday?", "Please answer in the following format: 1/1/1900");
+confirm(new Date(birthday));
