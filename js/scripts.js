@@ -68,3 +68,8 @@ console.log(firstName);
 alert(lastName);
 let birthday = prompt("What's your birthday?", "Please answer in the following format: 1/1/1900");
 confirm(new Date(birthday));
+
+/*
+Sandbox server - staging... not a live server, but a place where your
+client can go to in order to see what you've been working on
+*/
