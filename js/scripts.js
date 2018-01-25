@@ -117,7 +117,7 @@ number1 /= 12; // also * + - ...this statement changes the value of 'number1'
 console.log(number1);
 */
 
-
+// This is Try It Out 2 (day2)
 var number1 = prompt("What is your favorite number?", "10");
 var number2 = prompt("What is your second favorite number?", "10");
 var parsed = parseInt(number1, 10);
