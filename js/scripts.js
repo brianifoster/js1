@@ -61,7 +61,7 @@ var yes = true; //boolean
   //let promptMessage = prompt("Tell me the password", "password");
   //console.log(promptMessage);
 
-
+/*
 const firstName = prompt("What is your first name?", "Maria");
 const lastName = prompt("What is your last name?", "is the best...duh");
 console.log(firstName);
@@ -75,3 +75,52 @@ client can go to in order to see what you've been working on
 */
 
 //This is my gh-pages branch
+
+/*
+const bestNumber = "";
+
+console.log(!firstName && !lastName);
+*/
+/*
+var string = "1";  //loose equal... true; strict equal... false
+var number = 1;
+console.log(string === number);
+
+var string = true;
+var number = 1;
+console.log(string != number); //loosely NOT true
+console.log(string !== number); //strictly loosely NOT true
+*/
+/*
+let obj1 = {name:"brian"};
+let obj2 = {name:"brian"};
+console.log(obj1 === obj2); //false.  Cannot compare objects.
+*/
+/*
+var primitive = "Hello World";
+var stringObject = new String("Hello World");
+console.log(primitive == stringObject); // this comes back true because the value is the same
+console.log(typeof(primitive));
+//console.log(typeof(stringObject)); // this is NOT strictly equal because one is a primitive string and the other is a string objects
+*/
+/*
+var number1 = 12;
+var number2 = 780;
+number1++;
+console.log(isNaN(number1));
+console.log(number1);
+*/
+/*
+var number1 = 12;
+var number2 = 780;
+number1 /= 12; // also * + - ...this statement changes the value of 'number1'
+console.log(number1);
+*/
+
+/*
+var number1 = prompt("What is your favorite number?", "10");
+var number2 = prompt("What is your second favorite number?", "10");
+var parsed = parseInt(number1, 10);
+var parsed2 = parseInt(number2, 10);
+alert("Your favorite numbers added together are " + (parsed + parsed2));
+*/
