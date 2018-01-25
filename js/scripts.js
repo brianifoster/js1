@@ -117,10 +117,10 @@ number1 /= 12; // also * + - ...this statement changes the value of 'number1'
 console.log(number1);
 */
 
-/*
+
 var number1 = prompt("What is your favorite number?", "10");
 var number2 = prompt("What is your second favorite number?", "10");
 var parsed = parseInt(number1, 10);
 var parsed2 = parseInt(number2, 10);
 alert("Your favorite numbers added together are " + (parsed + parsed2));
-*/
+console.log(parsed + parsed2);
