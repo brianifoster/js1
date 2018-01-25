@@ -124,3 +124,6 @@ var parsed = parseInt(number1, 10);
 var parsed2 = parseInt(number2, 10);
 alert("Your favorite numbers added together are " + (parsed + parsed2));
 console.log(parsed + parsed2);
+
+
+// This is Try It Out 3 (day3).
