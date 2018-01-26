@@ -118,12 +118,59 @@ console.log(number1);
 */
 
 // This is Try It Out 2 (day2)
+/*
 var number1 = prompt("What is your favorite number?", "10");
 var number2 = prompt("What is your second favorite number?", "10");
 var parsed = parseInt(number1, 10);
 var parsed2 = parseInt(number2, 10);
 alert("Your favorite numbers added together are " + (parsed + parsed2));
 console.log(parsed + parsed2);
+*/
 
+// const bestMovie = "Reservoir Dogs";
+// bestMovie !== undefined ? alert('It exists') : alert('It doesn\'t exist'); //There should be only one thing that you're evaluating for a ternary
+/*
+if (typeof(bestMovie) === 'string') { //if/else statement
+  alert('Yay its a string');
+} else if(typeof(bestMovie) === 'number') {
+  alert('You gave me a number');
+} else {
+  alert("It's not a string"); // If/else statements don't need semicolons at the end
+}
+*/
+/*
+// switch(typeof(bestMovie)) {  //switch statement
+//   case 'string':
+//     alert('Yay it\'s a string');
+//     break;
+//   case 'number':
+//     alert('Yay it\'s a number');
+//     break;
+//   case 'boolean':
+//     alert('Yay it\'s a boolean');
+//     break;
+//   case 'object':
+//     alert('It\'s an object');
+//     break;
+//   default:
+//     alert('It\'s an array');
+//     break;
+// }
+// */
 
-// This is Try It Out 3 (day3).
+// Try It Out 3 (day3)
+var userAge = confirm('Are you over 18');
+
+if(userAge == true) {
+  underEighty = confirm('Are you under 80 years old');
+    if(underEighty) {
+      var starWars = confirm('Do you like Star Wars?');
+      if(starWars) {
+        alert('You rock!');
+      }
+    } else {
+      confirm('Do you like prunes?');
+    }
+} else {
+  alert('You\'re not old enough');
+}
