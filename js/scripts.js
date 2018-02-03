@@ -102,15 +102,24 @@
 
 
 //PART 2
-var anyNumber = prompt("Give me a number, any number!", "10");
+// var anyNumber = prompt("Give me a number, any number!", "10");
+//
+// function square(number) {
+//   parseInt(number);
+//   if(isNaN(number)) {
+//   square(prompt("Oops, that's not a number. Please give us a number.", "10"));
+// } else {
+//   alert(number * number);
+//   }
+// }
+//
+// square(anyNumber);
 
-function square(number) {
-  parseInt(number);
-  if(isNaN(number)) {
-  square(prompt("Oops, that's not a number. Please give us a number.", "10"));
-} else {
-  alert(number * number);
-  }
+//PART 3
+var origin = prompt("Where were you born?  Please use the example format.", "I was born...");
+
+function originString(str) {
+  return str.charAt(0).toUpperCase() + str.splice(1);
 }
 
-square(anyNumber);
+originString(origin);
