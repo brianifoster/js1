@@ -91,11 +91,26 @@
 
 //TAKE HOME DAY 5
 //PART 1
-var anyNumber = prompt("Give me a number, any number!", "1, 50, 1000...");
+// var anyNumber = prompt("Give me a number, any number!", "1, 50, 1000...");
+//
+// function square(number) {
+//   parseInt(number);
+//   alert(number * number);
+// }
+//
+// square(anyNumber);
+
+
+//PART 2
+var anyNumber = prompt("Give me a number, any number!", "10");
 
 function square(number) {
   parseInt(number);
+  if(isNaN(number)) {
+  square(prompt("Oops, that's not a number. Please give us a number.", "10"));
+} else {
   alert(number * number);
+  }
 }
 
 square(anyNumber);
