@@ -89,8 +89,10 @@
 // calcQty(userAge, product);
 
 
-//TAKE HOME DAY 5
-//PART 1
+//TAKE HOME DAY 5 - On your day5 branch write a program that uses functions to:
+
+//PART 1 - Take a number and return the square of that number (power of 2).
+
 // var anyNumber = prompt("Give me a number, any number!", "1, 50, 1000...");
 //
 // function square(number) {
@@ -101,7 +103,8 @@
 // square(anyNumber);
 
 
-//PART 2
+//PART 2 - If a non-number argument is passed into the function, alert NaN and prompt for another response
+
 // var anyNumber = prompt("Give me a number, any number!", "10");
 //
 // function square(number) {
@@ -115,11 +118,17 @@
 //
 // square(anyNumber);
 
-//PART 3
-var origin = prompt("Where were you born?  Please use the example format.", "I was born...");
+//PART 3 - In a second function, capitalize the first letter of a string and add a period (.) to the end of the string if it doesn't already end with a period
 
-function originString(str) {
-  return str.charAt(0).toUpperCase() + str.splice(1);
+var originString = prompt("Where are you from?");
+
+function format(string) {
+  if(string.charAt(string.length -1) === ".") {
+    console.log(string.charAt(0).toUpperCase() + string.slice(1));
+  } else {
+    console.log(string.charAt(0).toUpperCase() + string.slice(1) + ".");
+  }
 }
 
-originString(origin);
+
+format(originString);
