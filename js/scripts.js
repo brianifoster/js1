@@ -120,15 +120,42 @@
 
 //PART 3 - In a second function, capitalize the first letter of a string and add a period (.) to the end of the string if it doesn't already end with a period
 
-var originString = prompt("Where are you from?");
+// var originString = prompt("Where are you from?");
+//
+// function format(string) {
+//   if(string.charAt(string.length -1) === ".") {
+//     console.log(string.charAt(0).toUpperCase() + string.slice(1));
+//   } else {
+//     console.log(string.charAt(0).toUpperCase() + string.slice(1) + ".");
+//   }
+// }
+//
+// format(originString);
 
-function format(string) {
-  if(string.charAt(string.length -1) === ".") {
-    console.log(string.charAt(0).toUpperCase() + string.slice(1));
+//PART 4 - Create a string that will flip the position of the first and second half of a string. For example, the string “abcdef” would be returned as “defabc”. Hint: use substring.
+
+// var wholeString = "abcdef";
+//
+// function flip(string) {
+//   let abcString = string.substr(0, 3);
+//   let defString = string.substr(3);
+//   console.log(defString + abcString);
+// }
+//
+// flip(wholeString);
+
+//BONUS - If you are bored by all that, write a function that checks if a given string is a palindrome.
+
+var myPalindrome = prompt("Type in a word to find out if it's a palindrome", "mom");
+
+function palindrome(myString) {
+  var lowerCase = myString.toLowerCase();
+  var checkPalindrome = lowerCase.split("").reverse().join("");
+  if(lowerCase === checkPalindrome) {
+    alert(`${myString} is a palindrome`);
   } else {
-    console.log(string.charAt(0).toUpperCase() + string.slice(1) + ".");
+    alert(`${myString} is not a palindrome`);
   }
 }
 
-
-format(originString);
+palindrome(myPalindrome);
