@@ -146,16 +146,16 @@
 
 //BONUS - If you are bored by all that, write a function that checks if a given string is a palindrome.
 
-var myPalindrome = prompt("Type in a word to find out if it's a palindrome", "mom");
-
-function palindrome(myString) {
-  var lowerCase = myString.toLowerCase();
-  var checkPalindrome = lowerCase.split("").reverse().join("");
-  if(lowerCase === checkPalindrome) {
-    alert(`${myString} is a palindrome`);
-  } else {
-    alert(`${myString} is not a palindrome`);
-  }
-}
-
-palindrome(myPalindrome);
+// var myPalindrome = prompt("Type in a word to find out if it's a palindrome", "mom");
+//
+// function palindrome(myString) {
+//   var lowerCase = myString.toLowerCase();
+//   var checkPalindrome = lowerCase.split("").reverse().join("");
+//   if(lowerCase === checkPalindrome) {
+//     alert(`${myString} is a palindrome`);
+//   } else {
+//     alert(`${myString} is not a palindrome`);
+//   }
+// }
+//
+// palindrome(myPalindrome);
