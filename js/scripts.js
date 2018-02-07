@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // .toUpperCase()-->this a function, and we know it is because of the parentheses
 // console.log()-->also a function
 //everything inside the parentheses are called arguments
@@ -94,69 +93,69 @@
 
 //PART 1 - Take a number and return the square of that number (power of 2).
 
-// var anyNumber = prompt("Give me a number, any number!", "1, 50, 1000...");
-//
-// function square(number) {
-//   parseInt(number);
-//   alert(number * number);
-// }
-//
-// square(anyNumber);
+var anyNumber = prompt("Give me a number, any number!", "1, 50, 1000...");
+
+function square(number) {
+  parseInt(number);
+  alert(number * number);
+}
+
+square(anyNumber);
 
 
 //PART 2 - If a non-number argument is passed into the function, alert NaN and prompt for another response
 
-// var anyNumber = prompt("Give me a number, any number!", "10");
-//
-// function square(number) {
-//   parseInt(number);
-//   if(isNaN(number)) {
-//   square(prompt("Oops, that's not a number. Please give us a number.", "10"));
-// } else {
-//   alert(number * number);
-//   }
-// }
-//
-// square(anyNumber);
+var anyNumber = prompt("Give me a number, any number!", "10");
+
+function square(number) {
+  parseInt(number);
+  if(isNaN(number)) {
+  square(prompt("Oops, that's not a number. Please give us a number.", "10"));
+} else {
+  alert(number * number);
+  }
+}
+
+square(anyNumber);
 
 //PART 3 - In a second function, capitalize the first letter of a string and add a period (.) to the end of the string if it doesn't already end with a period
 
-// var originString = prompt("Where are you from?");
-//
-// function format(string) {
-//   if(string.charAt(string.length -1) === ".") {
-//     console.log(string.charAt(0).toUpperCase() + string.slice(1));
-//   } else {
-//     console.log(string.charAt(0).toUpperCase() + string.slice(1) + ".");
-//   }
-// }
-//
-// format(originString);
+var originString = prompt("Where are you from?");
+
+function format(string) {
+  if(string.charAt(string.length -1) === ".") {
+    console.log(string.charAt(0).toUpperCase() + string.slice(1));
+  } else {
+    console.log(string.charAt(0).toUpperCase() + string.slice(1) + ".");
+  }
+}
+
+format(originString);
 
 //PART 4 - Create a string that will flip the position of the first and second half of a string. For example, the string “abcdef” would be returned as “defabc”. Hint: use substring.
 
-// var wholeString = "abcdef";
-//
-// function flip(string) {
-//   let abcString = string.substr(0, 3);
-//   let defString = string.substr(3);
-//   console.log(defString + abcString);
-// }
-//
-// flip(wholeString);
+var wholeString = "abcdef";
+
+function flip(string) {
+  let abcString = string.substr(0, 3);
+  let defString = string.substr(3);
+  console.log(defString + abcString);
+}
+
+flip(wholeString);
 
 //BONUS - If you are bored by all that, write a function that checks if a given string is a palindrome.
 
-// var myPalindrome = prompt("Type in a word to find out if it's a palindrome", "mom");
-//
-// function palindrome(myString) {
-//   var lowerCase = myString.toLowerCase();
-//   var checkPalindrome = lowerCase.split("").reverse().join("");
-//   if(lowerCase === checkPalindrome) {
-//     alert(`${myString} is a palindrome`);
-//   } else {
-//     alert(`${myString} is not a palindrome`);
-//   }
-// }
-//
-// palindrome(myPalindrome);
+var myPalindrome = prompt("Type in a word to find out if it's a palindrome", "mom");
+
+function palindrome(myString) {
+  var lowerCase = myString.toLowerCase();
+  var checkPalindrome = lowerCase.split("").reverse().join("");
+  if(lowerCase === checkPalindrome) {
+    alert(`${myString} is a palindrome`);
+  } else {
+    alert(`${myString} is not a palindrome`);
+  }
+}
+
+palindrome(myPalindrome);
