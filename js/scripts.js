@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // .toUpperCase()-->this a function, and we know it is because of the parentheses
 // console.log()-->also a function
 //everything inside the parentheses are called arguments
