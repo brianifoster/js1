@@ -25,3 +25,17 @@ The function should take 2 arguments: the DOM selector method the user wants to 
 // }
 
 //In Javascript, all functions are first class functions because the functions can be passed from one function to another
+
+//TAKEHOME6 - Write a program that converts temperatures. It should:
+
+//STEP 1 - Employ a function that accepts two arguments: temperature and scale (either celcius or fahrenheit).
+
+var tempNum = prompt("What's the temperature today?", "32");
+var tempScale = prompt("Is that Fahrenheit or Celcius?", "f or c");
+
+function calcTemp(temp) {
+  parseInt(tempNum);
+  if(isNaN) {
+    
+  }
+}
