@@ -55,17 +55,20 @@ var textArea = document.createElement('textarea');
 var myInput = document.createElement('input');
 textArea.innerHTML = "Add a few sentences about what you did today";
 myInput.setAttribute("type", "Submit");
-myInput.innerHTML = "Enter";
 textArea.style.width = "300px";
 textArea.style.height = "200px";
 form.appendChild(textArea);
 form.appendChild(myInput);
 
-myInput.addEventListener('click', sentencePrompt);
+myInput.addEventListener('click', function();
 
 function sentencePrompt() {
   var userSentences = console.log(textArea);
-}
+  var para = document.createElement('p');
+  para.innerHTML = textArea;
+});
+
+
 
 
 
