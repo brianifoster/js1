@@ -23,3 +23,31 @@ sessionStorage.removeItem("username"); //used if you want to replace with someth
 sessionStorage.clear(); //it clears everything that was stored
 
 //localStorage also works just like sessionStorage, except for .clear
+
+//IIFE
+var getValue = (
+  function(x) {
+    return function() {
+      alert(x);
+    };
+  }
+  (x));
+
+// Firehouse blog
+//Mongo db
+//Express
+//Angular
+//Node
+//Stack
+
+//JSON - Javascript Object Notation
+//JSON.parse()
+//JSON.stringify()
+var user = {
+  name: "Brian",
+  coolness: 10
+};
+
+console.log(user);
+
+console.log(JSON.parse());
